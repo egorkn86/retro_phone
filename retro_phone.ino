@@ -27,7 +27,7 @@
     void    funcBELL(bool);                  // Объявляем функцию управления звонком (true - подаёт один колокольный звон, false - выключает колокольный звонок).
                                              //
 //  Подключаем библиотеки:                   //
-    #include <iarduino_GSM.h>                // Подключаем библиотеку iarduino_GSM для работы с GSM/GPRS Shield.
+    #include "iarduino_GSM.h"                // Подключаем библиотеку iarduino_GSM для работы с GSM/GPRS Shield.
     #include <SoftwareSerial.h>              // Подключаем библиотеку SoftwareSerial для программной реализации шины UART.
     #include <Servo.h>                       // Подключаем библиотеку Servo для работы с сервоприводом (если колокольный звонок собран на сервоприводе).
                                              //
